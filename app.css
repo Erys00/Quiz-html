@@ -102,3 +102,30 @@ h4{
   box-shadow: none;
   transform: none;
 }
+
+/*        IMG       */
+
+.logo{
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: none;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #6E5DCF;
+  background-color: #243B67;
+}
+
+.logo:hover{
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #EAEBED;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.logo[disabled]:hover{
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
